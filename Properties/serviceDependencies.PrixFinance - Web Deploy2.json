@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/PrixFinanceAPI/apis/PrixFinanceAPI",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/PrixFinance/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsdBConnection_880EAEDE4E",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/prixfinancesqlserver/databases/prix-finance-db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:dBConnection",
+      "dynamicId": null
+    }
+  }
+}
