@@ -1,0 +1,6 @@
+@PrixFinance3_HostAddress = http://localhost:5105
+
+GET {{PrixFinance3_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
